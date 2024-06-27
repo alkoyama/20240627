@@ -25,6 +25,7 @@
         "slide_gfBWxY": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
             "slide_title": "見出しが入ります。",
             "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
             "button_label": "Button label",
@@ -34,6 +35,7 @@
         "slide_rhgyAi": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
             "slide_title": "見出しが入ります。",
             "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
             "button_label": "Button label",
