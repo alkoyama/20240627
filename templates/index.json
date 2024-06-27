@@ -49,7 +49,7 @@
         "slide_rhgyAi"
       ],
       "settings": {
-        "slide_height": "adapt",
+        "slide_height": "small",
         "text_size": "medium",
         "text_alignment": "center center",
         "show_overlay": true,
