@@ -1,4 +1,5 @@
 <h1>スライダー</h1>
+
 {% schema %}
     {
         "name": "スライダーsample",
@@ -136,3 +137,45 @@
         ]
     }
 {% endschema %}
+
+<div class="slide-wrap" data-slick='{}'>
+
+{% for block in section.blocks %}
+    {% if block.type == 'slide' %}
+        <div class="slide">
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.slide_title }}">
+            <div class="slide-content">
+                <h2>{{ block.settings.slide_title }}</h2>
+                <p>{{ block.settings.subheading }}</p>
+                <a href="{{ block.settings.button_link }}" class="btn">{{ block.settings.button_label }}</a>
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}
+
+    </div>
+
+
+<script>
+    $(document).ready(function() {
+        $('.slide-wrap').slick({
+            infinite: true,   // Based on schema setting
+            autoplay: {{ section.settings.auto }},   // Use schema setting for autoplay
+            autoplaySpeed: {{ section.settings.speed }} * 1000,  // Convert seconds to milliseconds
+            slidesToShow: 1,  // Default value
+            slidesToScroll: 1,  // Default value
+            arrows: false,  // No arrows by default
+            dots: true,  // Dots based on schema setting
+            fade: false,  // No fade effect by default
+            cssEase: 'linear',  // Default value
+            easing: 'linear',  // Default value
+            speed: 600,  // Default value
+            lazyLoad: 'progressive',  // Default value
+            adaptiveHeight: {{ section.settings.slide_height == 'adapt' }},  // Use schema setting for height
+            prevArrow: '<button type="button" class="slick-prev">Previous</button>',  // Customize arrows if needed
+            nextArrow: '<button type="button" class="slick-next">Next</button>',  // Customize arrows if needed
+            // ... other Slick options as needed
+        });
+    });
+</script>
+
