@@ -9,30 +9,10 @@
 */
 {
   "sections": {
-    "slider_wjqdz8": {
+    "slider_RdeUa6": {
       "type": "slider",
       "blocks": {
-        "slide_gKq4ky": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "slide_3mxRrR": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "slide_BRYbqa": {
+        "slide_YXAD4i": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
@@ -41,12 +21,30 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "slide_gfBWxY": {
+          "type": "slide",
+          "settings": {
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "slide_rhgyAi": {
+          "type": "slide",
+          "settings": {
+            "slide_title": "見出しが入ります。",
+            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "slide_gKq4ky",
-        "slide_3mxRrR",
-        "slide_BRYbqa"
+        "slide_YXAD4i",
+        "slide_gfBWxY",
+        "slide_rhgyAi"
       ],
       "settings": {
         "slide_height": "adapt",
@@ -267,42 +265,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "slider_AYVab6": {
-      "type": "slider",
-      "blocks": {
-        "slide_LB3T8F": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_LB3T8F"
-      ],
-      "settings": {
-        "slide_height": "adapt",
-        "text_size": "medium",
-        "text_alignment": "center center",
-        "show_overlay": true,
-        "auto": false,
-        "speed": 5
-      }
     }
   },
   "order": [
-    "slider_wjqdz8",
+    "slider_RdeUa6",
     "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "slider_AYVab6"
+    "multicolumn"
   ]
 }
