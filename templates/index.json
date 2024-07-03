@@ -38,7 +38,7 @@
       ],
       "settings": {
         "navigation_amount": 3,
-        "navigation_color": "",
+        "navigation_color": "rgba(0,0,0,0)",
         "title": "Images Slider"
       }
     },
