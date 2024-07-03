@@ -45,7 +45,7 @@
       ],
       "settings": {
         "navigation_amount": 3,
-        "navigation_color": "rgba(0,0,0,0)",
+        "navigation_color": "#121212",
         "title": "Test"
       }
     },
