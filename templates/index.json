@@ -24,18 +24,6 @@
             "custom_image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
           }
         },
-        "image_YpaMqk": {
-          "type": "image",
-          "settings": {
-            "custom_image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
-          }
-        },
-        "image_Jt3qKA": {
-          "type": "image",
-          "settings": {
-            "custom_image": "shopify:\/\/shop_images\/flatlay-of-jade-face-roller-laying-on-a-grey-stone.jpg"
-          }
-        },
         "image_PgLyw7": {
           "type": "image",
           "settings": {
@@ -52,8 +40,6 @@
       "block_order": [
         "image_cbUUFE",
         "image_fh4TVW",
-        "image_YpaMqk",
-        "image_Jt3qKA",
         "image_PgLyw7",
         "image_P6W98T"
       ],
