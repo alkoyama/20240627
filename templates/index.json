@@ -12,49 +12,34 @@
     "slider_RdeUa6": {
       "type": "slider",
       "blocks": {
-        "slide_YXAD4i": {
-          "type": "slide",
+        "image_cbUUFE": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg",
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
+            "custom_image": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
           }
         },
-        "slide_nTAGpm": {
-          "type": "slide",
+        "image_fh4TVW": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
+            "custom_image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
           }
         },
-        "slide_DKP7A8": {
-          "type": "slide",
+        "image_YpaMqk": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-            "slide_title": "見出しが入ります。",
-            "subheading": "あなたのブランドのストーリーをビデオや画像で伝える",
-            "button_label": "Button label",
-            "button_link": ""
+            "custom_image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
           }
         }
       },
       "block_order": [
-        "slide_YXAD4i",
-        "slide_nTAGpm",
-        "slide_DKP7A8"
+        "image_cbUUFE",
+        "image_fh4TVW",
+        "image_YpaMqk"
       ],
       "settings": {
-        "slide_height": "small",
-        "text_size": "medium",
-        "text_alignment": "right center",
-        "show_overlay": true,
-        "auto": false,
-        "speed": 5
+        "navigation_amount": 3,
+        "navigation_color": "",
+        "title": "Images Slider"
       }
     },
     "rich_text": {
